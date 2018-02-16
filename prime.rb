@@ -5,5 +5,5 @@ def prime?(n)
   x.any? do |i|
     n % i == 0
     end
-  end
+  
 end
