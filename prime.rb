@@ -1,7 +1,4 @@
 def prime?(n)
-  return false if n <= 1
-  return true if n == 2
-
-  (2..n - 1)).to_a.include? {|i| n % i == 0}
-
-end
+   is_it = (2..n).find { |i| n % i == 0 }
+   is_it == n ? true : false
+ end
