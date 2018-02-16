@@ -1,4 +1,4 @@
-def prime(n)
+def prime?(n)
   return true if n == 2
 
 
