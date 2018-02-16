@@ -4,6 +4,4 @@ def prime?(n)
 
   (2..(n - 1)).to_a.find {|i| n % i == 0}
 
-    end
-
 end
