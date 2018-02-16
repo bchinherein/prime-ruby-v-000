@@ -4,7 +4,7 @@ def prime?(n)
 
 
   (2..(n - 1)).to_a.any? do |i|
-    n % i === 0
+    n % i == 0
     end
 
 end
